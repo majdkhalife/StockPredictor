@@ -4,9 +4,9 @@ However, we can use a machine learning approach to forecast future prices by tra
 
 II) How will we be estimating future stock prices?
 We will be using a method called time series forecasting. This technique predicts future events by analyzing trends of the past, holding the assunmption that future trends will be similar to historic ones.
-Key Concepts:
-  Lagged Features: Using past values  of a variable as features.
-  Windowing: Creating sequences of observations to predict future values.
-  Trend and Seasonality: Accounting for long-term trends and repeating patterns.
+
+We will be using time series forecasting, a method which predicts future values based on historical values.
+
+
  
 
