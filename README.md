@@ -4,9 +4,13 @@ However, we can use a machine learning approach to forecast future prices by tra
 
 II) How will we be estimating future stock prices?
 We will be using a method called time series forecasting. This technique predicts future events by analyzing trends of the past, holding the assunmption that future trends will be similar to historic ones.
+Firstly, we will have to learn a little about lagged features and their importance in us attempting to predict stock prices.
+Lagged features are feature engineering techniques used to capture the temporal dependencies and patterns in the time series data.
+A lagged feature is created by taking the value of a variable at a previous time point and including it as a feature in the model at the current time point.
 
-We will be using time series forecasting, a method which predicts future values based on historical values.
-
- 
- 
-
+What model will we be using?
+We will be using the LSTM model. LSTM stands for Long short term memory.
+At each time step, the LSTM processes the input and updates the cell state by controlling the information flow through these gates.
+The forget gate decides what to remove from the cell state.
+The input gate decides what to add from the current input.
+The output gate filters the final output for the current time step.
