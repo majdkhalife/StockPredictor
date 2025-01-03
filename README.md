@@ -4,7 +4,7 @@ Here, I’m experimenting with various models to predict stock prices and sharin
 As a student, I’ll update this repo as time permits, and I appreciate any feedback or contributions!
 
 As of right now, I have implemented 3 different models:
-ARIMA, GARCH and LSTM, each of which have model independent scenarios.
+ARIMA, GARCH and LSTM, each of which model different elements of the stock market.
 
 ## ARIMA<br>
 Its main purpose is that it forecasts future values of a time series based on past values and errors.<br>
